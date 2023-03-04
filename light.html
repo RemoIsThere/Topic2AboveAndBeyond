@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart LED Lighting Control</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Smart LED Lighting Control</h1>
+  <br>
+  <div id="lights" align="center">
+    <div class="light" id="light1"></div>
+    <div class="light" id="light2"></div>
+    <div class="light" id="light3"></div>
+  </div>
+  <br>
+  <form align="center">
+    <label for="light-select">Select a light:</label>
+    <select id="light-select">
+      <option value="light1">Light 1</option>
+      <option value="light2">Light 2</option>
+      <option value="light3">Light 3</option>
+    </select>
+    <label for="color-select">Select a color:</label>
+    <input type="color" id="color-select"> <br>
+    <input type="submit" value="Change color" onclick="changeColor(event)">
+  </form>
+  <script src="app.js"></script>
+
+</body>
+</html>

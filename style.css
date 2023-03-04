@@ -1,0 +1,27 @@
+.light {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    align-self: center;
+  }
+
+h1 {
+    font-style: italic;
+    text-align: center;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+form {
+    font-weight: 1000;
+}
+
+input ,select{
+    font-weight: 500;
+    font-style: italic;
+    background-color: rgb(174, 248, 244);
+}
